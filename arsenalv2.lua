@@ -17,7 +17,6 @@ coroutine.resume(coroutine.create(function()
                     local parts = {
                         "RightUpperLeg",
                         "LeftUpperLeg",
-                        "HeadHB",
                         "HumanoidRootPart"
                     }
                     for _, partName in ipairs(parts) do
@@ -40,7 +39,6 @@ coroutine.resume(coroutine.create(function()
                     local parts = {
                         "RightUpperLeg",
                         "LeftUpperLeg",
-                        "HeadHB",
                         "HumanoidRootPart"
                     }
                     for _, partName in ipairs(parts) do
