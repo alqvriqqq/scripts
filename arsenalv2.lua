@@ -1,4 +1,4 @@
-function getPlayersName()
+function plr()
     for i, v in pairs(game:GetChildren()) do
         if v.ClassName == "Players" then
             return v.Name
@@ -6,7 +6,7 @@ function getPlayersName()
     end
 end
 
-local players = getPlayersName()
+local players = plr()
 local localPlayer = game[players].LocalPlayer
 
 coroutine.resume(coroutine.create(function()
